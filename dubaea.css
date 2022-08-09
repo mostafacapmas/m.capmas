@@ -1,0 +1,4024 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#FlexGrid3
+{
+   display: grid;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "title";
+}
+#FlexGrid3 .title
+{
+   display: flex;
+   grid-area: title;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 10px 10px 10px 10px;
+   padding: 0;
+}
+#FlexGrid2-grid
+{
+   display: grid;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 480px;
+   font-size: 0;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "search";
+}
+#FlexGrid2 .search
+{
+   display: flex;
+   grid-area: search;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+#FlexGrid1-grid
+{
+   display: grid;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1280px;
+   font-size: 0;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto auto auto;
+   grid-template-areas:
+      "system devices phone network personalization"
+      "apps accounts time gaming easeofaccess"
+      "privacy update search . .";
+}
+#FlexGrid1 .system
+{
+   display: flex;
+   grid-area: system;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .devices
+{
+   display: flex;
+   grid-area: devices;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .phone
+{
+   display: flex;
+   grid-area: phone;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .network
+{
+   display: flex;
+   grid-area: network;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .personalization
+{
+   display: flex;
+   grid-area: personalization;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .apps
+{
+   display: flex;
+   grid-area: apps;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .accounts
+{
+   display: flex;
+   grid-area: accounts;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .time
+{
+   display: flex;
+   grid-area: time;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .gaming
+{
+   display: flex;
+   grid-area: gaming;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .easeofaccess
+{
+   display: flex;
+   grid-area: easeofaccess;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .privacy
+{
+   display: flex;
+   grid-area: privacy;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .update
+{
+   display: flex;
+   grid-area: update;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .search
+{
+   display: flex;
+   grid-area: search;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#wb_icon-system
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   -webkit-animation: animate-box-shadow 1000ms cubic-bezier(0.6, 0.04, 0.98, 0.335) 0ms infinite normal both;
+   animation: animate-box-shadow 1000ms cubic-bezier(0.6, 0.04, 0.98, 0.335) 0ms infinite normal both;
+   vertical-align: top;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: stretch;
+   align-self: stretch;
+}
+#icon-system
+{
+}
+#icon-system i
+{
+   color: #0063B1;
+   display: inline-block;
+   font-size: 64px;
+   line-height: 64px;
+   vertical-align: middle;
+   width: 67px;
+}
+#icon-system:hover i
+{
+   color: #337AB7;
+}
+#wb_text-system 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_text-system div
+{
+   text-align: center;
+}
+#wb_icon-phone
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   -webkit-animation: animate-opacity 1000ms linear 0ms infinite normal both;
+   animation: animate-opacity 1000ms linear 0ms infinite normal both;
+   vertical-align: top;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#icon-phone
+{
+   height: 64px;
+}
+#icon-phone i
+{
+   color: #0063B1;
+   display: inline-block;
+   font-size: 64px;
+   line-height: 64px;
+   vertical-align: middle;
+   width: 63px;
+}
+#icon-phone:hover i
+{
+   color: #337AB7;
+}
+#wb_icon-network
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   -webkit-animation: fall 1000ms linear 0ms infinite normal both;
+   animation: fall 1000ms linear 0ms infinite normal both;
+   vertical-align: top;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#icon-network
+{
+   height: 64px;
+}
+#icon-network i
+{
+   color: #0063B1;
+   display: inline-block;
+   font-size: 64px;
+   line-height: 64px;
+   vertical-align: middle;
+   width: 63px;
+}
+#icon-network:hover i
+{
+   color: #337AB7;
+}
+#wb_text-network 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_text-network div
+{
+   text-align: center;
+}
+#wb_icon-apps
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#icon-apps
+{
+   height: 64px;
+}
+#icon-apps i
+{
+   color: #0063B1;
+   display: inline-block;
+   font-size: 64px;
+   line-height: 64px;
+   vertical-align: middle;
+   width: 63px;
+}
+#icon-apps:hover i
+{
+   color: #337AB7;
+}
+#wb_text-apps 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_text-apps div
+{
+   text-align: left;
+}
+#wb_icon-accounts
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#icon-accounts
+{
+   height: 64px;
+}
+#icon-accounts i
+{
+   color: #0063B1;
+   display: inline-block;
+   font-size: 64px;
+   line-height: 64px;
+   vertical-align: middle;
+   width: 63px;
+}
+#icon-accounts:hover i
+{
+   color: #337AB7;
+}
+#wb_text-accounts 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_text-accounts div
+{
+   text-align: center;
+}
+#wb_icon-search
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#icon-search
+{
+   height: 64px;
+}
+#icon-search i
+{
+   color: #0063B1;
+   display: inline-block;
+   font-size: 64px;
+   line-height: 64px;
+   vertical-align: middle;
+   width: 63px;
+}
+#icon-search:hover i
+{
+   color: #337AB7;
+}
+#wb_text-search 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_text-search div
+{
+   text-align: center;
+}
+#find-input
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   line-height: 22px;
+   padding: 4px 4px 4px 4px;
+   margin: 4px 0 4px 0 ;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   text-align: left;
+}
+#find-input:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_icon-find
+{
+   background-color: #0063B1;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 5px 5px 5px 5px;
+   vertical-align: top;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#icon-find
+{
+   height: 21px;
+   width: 22px;
+}
+#icon-find i
+{
+   color: #FFFFFF;
+   display: inline-block;
+   font-size: 21px;
+   line-height: 21px;
+   vertical-align: middle;
+   width: 20px;
+}
+#icon-find:hover i
+{
+   color: #FFFFFF;
+}
+#wb_title
+{
+   background-color: #0063B1;
+   background-image: none;
+   border: 0px solid #0063B1;
+   border-radius: 0px;
+   margin: 10px 10px 10px 10px;
+   padding: 5px 5px 5px 5px;
+   text-align: left;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#title
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_IconFont1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   -webkit-animation: animate-fire-text-shadow 1000ms linear 0ms infinite normal both;
+   animation: animate-fire-text-shadow 1000ms linear 0ms infinite normal both;
+   vertical-align: top;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#IconFont1
+{
+   height: 64px;
+}
+#IconFont1 i
+{
+   color: #0063B1;
+   display: inline-block;
+   font-size: 64px;
+   line-height: 64px;
+   vertical-align: middle;
+   width: 63px;
+}
+#IconFont1:hover i
+{
+   color: #337AB7;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_icon-system
+{
+   display: inline-block;
+   text-align: center;
+   z-index: 3;
+}
+#wb_icon-accounts
+{
+   display: inline-block;
+   height: 64px;
+   text-align: center;
+   z-index: 13;
+}
+#wb_icon-network
+{
+   display: inline-block;
+   height: 64px;
+   text-align: center;
+   z-index: 9;
+}
+#wb_icon-phone
+{
+   display: inline-block;
+   height: 64px;
+   text-align: center;
+   z-index: 7;
+}
+#wb_icon-find
+{
+   display: inline-block;
+   width: 22px;
+   height: 21px;
+   text-align: center;
+   z-index: 2;
+}
+#wb_icon-search
+{
+   display: inline-block;
+   height: 64px;
+   text-align: center;
+   z-index: 15;
+}
+#find-input
+{
+   display: block;
+   height: 32px;
+}
+#wb_IconFont1
+{
+   display: inline-block;
+   height: 64px;
+   text-align: center;
+   z-index: 5;
+}
+#wb_title
+{
+   display: inline-block;
+   z-index: 0;
+}
+#wb_icon-apps
+{
+   display: inline-block;
+   height: 64px;
+   text-align: center;
+   z-index: 11;
+}
+@media only screen and (min-width: 970px) and (max-width: 1279px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#FlexGrid3
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid3
+{
+   margin: 0;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "title";
+}
+#FlexGrid3 .title
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 ..
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid2-grid
+{
+   margin: 10px 10px 10px 10px;
+}
+#FlexGrid2-grid
+{
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "search";
+}
+#FlexGrid2 .search
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 ..
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid1-grid
+{
+   margin: 0;
+}
+#FlexGrid1-grid
+{
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: auto auto auto 1fr;
+   grid-template-areas:
+      "system devices phone network"
+      "personalization apps accounts time"
+      "gaming easeofaccess privacy update"
+      "search . . .";
+}
+#FlexGrid1 .system
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .devices
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .phone
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .network
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .personalization
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .apps
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .accounts
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 ..
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .time
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .gaming
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .easeofaccess
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .privacy
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .search
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .update
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#wb_icon-system
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: stretch;
+   align-self: stretch;
+   padding: 0;
+}
+#icon-system
+{
+}
+#icon-system i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 68px;
+}
+#wb_text-system
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-system
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-phone
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-phone
+{
+   height: 64px;
+}
+#icon-phone i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 27px;
+}
+#wb_icon-network
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-network
+{
+   height: 64px;
+}
+#icon-network i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_text-network
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-network
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-apps
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-apps
+{
+   height: 64px;
+}
+#icon-apps i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 64px;
+}
+#wb_text-apps
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-apps
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-accounts
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-accounts
+{
+   height: 64px;
+}
+#icon-accounts i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_text-accounts
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-accounts
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-search
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-search
+{
+   height: 64px;
+}
+#icon-search i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 59px;
+}
+#wb_text-search
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-search
+{
+   margin: 0;
+   padding: 0;
+}
+#find-input
+{
+   width: auto;
+   height: 32px;
+   visibility: visible;
+   display: inline;
+   margin: 4px 0 4px 0 ;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#find-input
+{
+   line-height: 14px;
+}
+#wb_icon-find
+{
+   width: 22px;
+   height: 21px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 5px 5px 5px 5px;
+}
+#icon-find
+{
+   width: 22px;
+   height: 21px;
+}
+#icon-find i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 19px;
+}
+#wb_title
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 5px 5px 5px 5px;
+}
+#wb_Text1
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_IconFont1
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#IconFont1
+{
+   height: 64px;
+}
+#IconFont1 i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_Text2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#FlexGrid3
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid3
+{
+   margin: 0;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "title";
+}
+#FlexGrid3 .title
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 ..
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid2-grid
+{
+   margin: 10px 10px 10px 10px;
+}
+#FlexGrid2-grid
+{
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "search";
+}
+#FlexGrid2 .search
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 ..
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid1-grid
+{
+   margin: 0;
+}
+#FlexGrid1-grid
+{
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: auto auto auto 1fr 1fr;
+   grid-template-areas:
+      "system devices phone"
+      "network personalization apps"
+      "accounts time gaming"
+      "easeofaccess privacy update"
+      "search . .";
+}
+#FlexGrid1 .system
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .devices
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .phone
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .network
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .personalization
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .apps
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .accounts
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .search
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .time
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .gaming
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .easeofaccess
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .privacy
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .update
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 ..
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#wb_icon-system
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: stretch;
+   align-self: stretch;
+   padding: 0;
+}
+#icon-system
+{
+}
+#icon-system i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 68px;
+}
+#wb_text-system
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-system
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-phone
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-phone
+{
+   height: 64px;
+}
+#icon-phone i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 27px;
+}
+#wb_icon-network
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-network
+{
+   height: 64px;
+}
+#icon-network i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_text-network
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-network
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-apps
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-apps
+{
+   height: 64px;
+}
+#icon-apps i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 64px;
+}
+#wb_text-apps
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-apps
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-accounts
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-accounts
+{
+   height: 64px;
+}
+#icon-accounts i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_text-accounts
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-accounts
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-search
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-search
+{
+   height: 64px;
+}
+#icon-search i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 59px;
+}
+#wb_text-search
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-search
+{
+   margin: 0;
+   padding: 0;
+}
+#find-input
+{
+   width: auto;
+   height: 32px;
+   visibility: visible;
+   display: inline;
+   margin: 4px 0 4px 0 ;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#find-input
+{
+   line-height: 14px;
+}
+#wb_icon-find
+{
+   width: 22px;
+   height: 21px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 5px 5px 5px 5px;
+}
+#icon-find
+{
+   width: 22px;
+   height: 21px;
+}
+#icon-find i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 19px;
+}
+#wb_title
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 5px 5px 5px 5px;
+}
+#wb_Text1
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_IconFont1
+{
+   width: auto;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#IconFont1
+{
+   height: 64px;
+}
+#IconFont1 i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_Text2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#FlexGrid3
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid3
+{
+   margin: 0;
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "title";
+}
+#FlexGrid3 .title
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid3 ..
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid2-grid
+{
+   margin: 10px 10px 10px 10px;
+}
+#FlexGrid2-grid
+{
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-template-areas:
+      "search";
+}
+#FlexGrid2 .search
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid2 ..
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1
+{
+   visibility: visible;
+   display: grid;
+}
+#FlexGrid1-grid
+{
+   margin: 0;
+}
+#FlexGrid1-grid
+{
+   grid-column-gap: 0px;
+   grid-row-gap: 0px;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+   grid-template-areas:
+      "system"
+      "devices"
+      "phone"
+      "network"
+      "personalization"
+      "apps"
+      "accounts"
+      "time"
+      "gaming"
+      "easeofaccess"
+      "privacy"
+      "update"
+      "search";
+}
+#FlexGrid1 .system
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .nav
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .main
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .sidebar
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .footer
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .devices
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .phone
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .network
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .personalization
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .apps
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .accounts
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .search
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .time
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .gaming
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .easeofaccess
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .privacy
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .update
+{
+   display: flex;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 16px 16px 16px 16px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 ..
+{
+   display: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#wb_icon-system
+{
+   width: 64px;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-flex-basis: 64px;
+   flex-basis: 64px;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-system
+{
+}
+#icon-system i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 68px;
+}
+#wb_text-system
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-system
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-phone
+{
+   width: 64px;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-flex-basis: 64px;
+   flex-basis: 64px;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-phone
+{
+   height: 64px;
+}
+#icon-phone i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 27px;
+}
+#wb_icon-network
+{
+   width: 64px;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-flex-basis: 64px;
+   flex-basis: 64px;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-network
+{
+   height: 64px;
+}
+#icon-network i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_text-network
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-network
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-apps
+{
+   width: 64px;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-flex-basis: 64px;
+   flex-basis: 64px;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-apps
+{
+   height: 64px;
+}
+#icon-apps i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 64px;
+}
+#wb_text-apps
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-apps
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-accounts
+{
+   width: 64px;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-flex-basis: 64px;
+   flex-basis: 64px;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-accounts
+{
+   height: 64px;
+}
+#icon-accounts i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_text-accounts
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-accounts
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_icon-search
+{
+   width: 64px;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-flex-basis: 64px;
+   flex-basis: 64px;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#icon-search
+{
+   height: 64px;
+}
+#icon-search i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 59px;
+}
+#wb_text-search
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_text-search
+{
+   margin: 0;
+   padding: 0;
+}
+#find-input
+{
+   width: auto;
+   height: 32px;
+   visibility: visible;
+   display: inline;
+   margin: 4px 0 4px 0 ;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#find-input
+{
+   line-height: 14px;
+}
+#wb_icon-find
+{
+   width: 22px;
+   height: 21px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 5px 5px 5px 5px;
+}
+#icon-find
+{
+   width: 22px;
+   height: 21px;
+}
+#icon-find i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 19px;
+}
+#wb_title
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   margin: 10px 10px 10px 10px;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 5px 5px 5px 5px;
+}
+#wb_Text1
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_IconFont1
+{
+   width: 64px;
+   height: 64px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-flex-basis: 64px;
+   flex-basis: 64px;
+   -webkit-align-self: auto;
+   align-self: auto;
+   padding: 0;
+}
+#IconFont1
+{
+   height: 64px;
+}
+#IconFont1 i
+{
+   line-height: 64px;
+   font-size: 64px;
+   width: 54px;
+}
+#wb_Text2
+{
+   width: auto;
+   height: auto;
+   visibility: visible;
+   display: inline;
+   -webkit-flex-grow: 1;
+   flex-grow: 1;
+   -webkit-flex-shrink: 1;
+   flex-shrink: 1;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+}
+.ui-screen-hidden 
+{
+    display: none !important;
+}
